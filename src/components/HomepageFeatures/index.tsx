@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Streamlined Design System',
+    Svg: require('@site/static/img/designer-monochromatic-82383.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          umpstart your side projects without the complexity of Tailwind or the hassle of creating your own design system. Styled Starter kit offers an intuitive, user-friendly approach to design, perfect for rapid project development.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Time-Saving Efficiency',
+    Svg: require('@site/static/img/waiting-monochromatic.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          Begin your projects on the front foot. Our library significantly reduces development time at the start, allowing you to focus more on unique functionalities rather than design intricacies.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Seamless Integration with ReactJS, NextJS, and Styled-Components',
+    Svg: require('@site/static/img/web-developer-monochromatic.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          Designed for compatibility. Whether you're working with ReactJS, NextJS, or incorporating Styled-Components or CSS Modules, Styled Starter Kit integrates smoothly, ensuring a cohesive and efficient development experience.
       </>
     ),
   },

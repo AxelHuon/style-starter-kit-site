@@ -55,7 +55,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/seo-image.jpg',
+    image: 'img/seo-image.png',
     navbar: {
       title: 'Style Starter Kit',
       logo: {
