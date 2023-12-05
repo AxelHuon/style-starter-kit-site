@@ -83,12 +83,12 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Installation',
-              to: '/docs/getting-started/installation',
+              label: 'Getting Started',
+              to: '/docs/category/getting-started',
             },
           ],
         },
-/*        {
+        {
           title: 'Community',
           items: [
             {
@@ -100,13 +100,17 @@ const config: Config = {
               href: 'https://twitter.com/docusaurus',
             },
           ],
-        },*/
+        },
         {
           title: 'More',
           items: [
             {
               label: 'GitHub',
               href: 'https://github.com/AxelHuon/style-starter-kit',
+            },
+            {
+              label: 'NPM',
+              href: 'https://www.npmjs.com/package/style-starter-kit',
             },
           ],
         },
