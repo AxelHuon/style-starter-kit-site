@@ -27,9 +27,9 @@ style-starter-kit init
 
 ```json
 {
-    "framework": "React",
-    "language": "TypeScript",
-    "styleLib": "css-modules"
+  "framework": "React",
+  "language": "TypeScript",
+  "styleLib": "css-modules"
 }
 ```
 ## Configuration Parameters

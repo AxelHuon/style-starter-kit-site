@@ -4,7 +4,7 @@
 This command is a powerful tool for generating a cohesive color scheme. Here's a detailed breakdown of its functionality:
 
 ```bash
-    style-starter-kit colors
+style-starter-kit colors
 ```
 
 ## Interactive Prompt for Color Selection
@@ -46,11 +46,11 @@ The generated files will have the following structure:
 
 ### JavaScript/TypeScript (Color.ts/js)
 ```js
-    export const Colors = {
-      PRIMARY: "#324343",
-      SECONDARY: "#324434",
-      /* Additional color constants */
-    };
+export const Colors = {
+    PRIMARY: "#324343",
+    SECONDARY: "#324434",
+    /* Additional color constants */
+};
 ```
 
 ## Color Variance Generation
@@ -96,11 +96,11 @@ This feature allows for greater flexibility and creativity in web design. Having
 
 ```js
 export const Colors =  {
-	PRIMARY_900: "#475656",
-	PRIMARY_800: "#5b6969",
-	PRIMARY_700: "#707b7b",
-	PRIMARY_600: "#848e8e",
-	PRIMARY_500: "#99a1a1",
+    PRIMARY_900: "#475656",
+    PRIMARY_800: "#5b6969",
+    PRIMARY_700: "#707b7b",
+    PRIMARY_600: "#848e8e",
+    PRIMARY_500: "#99a1a1",
     /*Others style...*/
 }
 ```
