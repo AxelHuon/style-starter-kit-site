@@ -40,4 +40,9 @@ style-starter-kit init
 
 - **StyleLib**: Defines the method for generating styles. The choices are css-modules or styled-components, allowing you to select a styling approach that matches your project's design philosophy.
 
+:::tip
+You can manually modify the `style-starter-kit.config.json` file to further customize the configuration to your specific requirements.
+:::
+
+
 The `style-starter-kit.config.json` file at the root of your project ensures that the Style Starter Kit is configured precisely to fit your project's technical framework, language preference, and styling methodology.
