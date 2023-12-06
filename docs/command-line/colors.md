@@ -88,7 +88,7 @@ This feature allows for greater flexibility and creativity in web design. Having
     --primary-300: #707b7b;
     --primary-400: #848e8e;
     --primary-500: #99a1a1;
-    /*Others style...*/
+    /* Additional color variables */
 }
 ```
 
@@ -101,7 +101,7 @@ export const Colors =  {
     PRIMARY_700: "#707b7b",
     PRIMARY_600: "#848e8e",
     PRIMARY_500: "#99a1a1",
-    /*Others style...*/
+	/* Additional color variables */
 }
 ```
 
