@@ -19,14 +19,20 @@ When executed, the command initiates an interactive prompt sequence.
 - **Color Variance***: Generate lighter and darker shades of the chosen colors.
 
 ## CSS File Export Option
-You can opt to export these colors into a CSS file, which is named `color.css`. This file can be placed in one of the following directories:
-- Root directory: `./style/color.css`
-- Inside `src/style`: `src/style/color.css`
+
+When you choose to export your colors into a CSS file, a file named `colors.css` is generated. The placement of this file depends on your project's configuration:
+
+- For projects of type React, Vue, or Unknown, the `colors.css` file will be placed in the directory `./src/styles/colors.css`.
+- For Next.js or Nuxt projects, the file will be placed in `./styles/colors.css`.
 
 ## JavaScript/TypeScript File Export
-Depending on the project setup, users can also generate a JavaScript or TypeScript file that includes color definitions. This file is named either `Color.ts` or `Color.js` and is located in:
-- Root directory: `./theme`
-- Inside `src/theme`: `./src/theme`
+
+Similarly, when generating a JavaScript or TypeScript file with color definitions, the placement of the file named `Colors.ts` or `Colors.js` also varies according to the project type:
+
+- For React, Vue, or Unknown project types, this file will be placed in `src` directory, typically under `./src/theme/Colors.ts` or `./src/theme/Colors.js`.
+- For Next.js or Nuxt projects, the file will be located in the root directory, commonly as `./theme/Colors.ts` or `./theme/Colors.js`.
+
+This approach ensures that the exported files are in line with the standard directory structures and practices of the respective project types, facilitating seamless integration and ease of use.
 
 :::warning
 The directory choice depends on the front-end framework being used.
@@ -100,8 +106,8 @@ export const Colors =  {
     PRIMARY_800: "#5b6969",
     PRIMARY_700: "#707b7b",
     PRIMARY_600: "#848e8e",
-    PRIMARY_500: "#99a1a1",
-	/* Additional color variables */
+    PRIMARY_500: "#99a1a1", 
+    /* Additional color variables */
 }
 ```
 
